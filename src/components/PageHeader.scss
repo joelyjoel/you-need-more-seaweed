@@ -1,0 +1,28 @@
+header.page-header {
+  
+
+  
+  a.returnhome {
+    display:inline-block;
+    float:left;
+
+
+    img {
+      display:block;
+      width:100px;
+    }
+    
+    label {
+      display:block;
+      text-align:center;
+    }
+  }
+
+  h1 {
+    width:auto;
+    margin-left:50px;
+    text-align:center;
+    font-size:64px;
+    opacity: 0.1;
+  }
+}

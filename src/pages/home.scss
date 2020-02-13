@@ -1,0 +1,13 @@
+header {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height:30vh;
+
+  p.introduction {
+    padding-left:20px;
+    font-style: italic;
+    line-height: 175%;
+  }
+}

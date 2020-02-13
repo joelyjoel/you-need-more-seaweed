@@ -1,0 +1,53 @@
+.thumbnail-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  .thumbnail-menu-item {
+    position:relative;
+    margin:25px;
+    padding:10px;
+    border-radius:10px;
+    max-width:250px;
+    
+    cursor:pointer;
+    // overflow: hidden;
+
+    // debug only
+    // border:dashed red;
+    
+    label {
+      display:block;
+      text-align: center;
+    }
+    img {
+      display:block;
+      margin-right:auto;
+      margin-left:auto;
+
+      position:relative;
+      z-index: -1;
+    
+      width:100%;
+      transform:scale(0.5);
+
+      transition: transform 0.3s;
+    }
+  }
+
+  .thumbnail-menu-item:hover {
+    // background-color: rgba(0,0,0, 0.1);
+
+    img {
+      transform:scale(1);
+    }
+    label {
+      background-color: beige;
+      transition: background-color 0.75s;
+      transition-delay: 0.25s;
+    }
+  }
+}

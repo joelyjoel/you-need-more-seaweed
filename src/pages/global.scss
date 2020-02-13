@@ -1,0 +1,42 @@
+body { 
+  background-color: rgb(174, 201, 152);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: rgb(41, 16, 6);
+}
+
+h1 {
+  font-weight: normal;
+}
+
+:link, :visited {
+  color:inherit;
+  /* rgb(41, 16, 6); */
+  text-decoration: none;
+}
+
+article.margined-article {
+  // clear:both;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:250px;
+
+  padding-top:50px;
+  padding-left:10px;
+  padding-right:10px;
+
+  img {
+    max-width: 100%;
+  }
+
+  p {
+    line-height:175%;
+    text-align:justify;
+  }
+}
+
+.starstarstar {
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
